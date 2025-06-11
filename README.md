@@ -66,10 +66,3 @@ _Add your screenshots here after running the app!_
 - ☁️ Cloud sync for user tasks
 - 👥 Multi-user support
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Made with 💙 by Chandan**
