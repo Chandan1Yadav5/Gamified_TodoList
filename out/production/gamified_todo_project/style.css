@@ -1,0 +1,61 @@
+.root {
+    -fx-background-color: #f9f9f9;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-text-fill: #333333;
+}
+
+.label.xp {
+    -fx-font-size: 16px;
+    -fx-text-fill: #4CAF50;
+    -fx-padding: 5px 0 5px 0;
+}
+
+.task-box {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-spacing: 10px;
+}
+
+.task-box:hover {
+    -fx-background-color: #ececec;
+}
+
+.label.easy-task {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+
+.label.medium-task {
+    -fx-text-fill: orange;
+    -fx-font-weight: bold;
+}
+
+.label.hard-task {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+/* ✅ XP Progress Bar: JavaFX-compliant styling */
+.progress-bar {
+    -fx-accent: #00b4db; /* solid color, no gradient */
+    -fx-control-inner-background: #e0e0e0;
+    -fx-background-radius: 10px;
+    -fx-padding: 6px;
+    -fx-border-color: #b0b0b0;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+/* Optional: Add hover effect for polish */
+.progress-bar:hover {
+    -fx-effect: dropshadow(gaussian, #00b4db, 8, 0.5, 0, 0);
+}

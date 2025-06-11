@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #2e2e2e;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-text-fill: #ffffff;
+}
+
+.label.xp {
+    -fx-font-size: 16px;
+    -fx-text-fill: #81C784;
+}
+
+.task-box {
+    -fx-background-color: #3b3b3b;
+    -fx-padding: 10px;
+    -fx-border-color: #555;
+    -fx-border-radius: 5px;
+}
+
+.task-box:hover {
+    -fx-background-color: #505050;
+}
+
+.label.easy-task {
+    -fx-text-fill: lightgreen;
+    -fx-font-weight: bold;
+}
+
+.label.medium-task {
+    -fx-text-fill: gold;
+    -fx-font-weight: bold;
+}
+
+.label.hard-task {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
